@@ -24,10 +24,10 @@ Antes de ejecutar el proyecto tener instalado:
 -------------------------------
 
 # Ejecución con Docker desde la raiz del proyecto 
-1. Construir la imagen
+1. Construir la imagen:
   docker build -t frontend .
-2. Ejecutar
+2. Ejecutar:
    docker run -p 3000:80 frontend
-3. Abrir en el navegador
+3. Abrir en el navegador:
    http://localhost:3000
    
