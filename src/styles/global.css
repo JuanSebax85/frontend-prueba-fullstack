@@ -1,0 +1,221 @@
+h1 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.container {
+    padding: 20px;
+    font-family: Arial;
+    background-color: #f4f6f8;
+
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.item {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 1.5fr auto;
+    align-items: center;
+    gap: 10px;
+
+    background: white;
+    padding: 12px 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid #eaeaea;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.materiaItem {
+    display: grid;
+    grid-template-columns: 2fr auto;
+    align-items: center;
+    width: 100%;
+    background: white;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid #eaeaea;
+}
+
+.materiaButtons {
+    display: flex;
+    gap: 10px;
+    margin-right: 20px;
+    justify-content: flex-end;
+}
+
+.materiaText {
+    color: #555;
+}
+
+.text {
+    color: #555;
+}
+
+.buttons {
+    display: flex;
+    gap: 8px;
+}
+
+.editBtn {
+    padding: 6px 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.deleteBtn {
+    padding: 6px 10px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background: rgba(0, 0, 0, 0.5);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 999;
+}
+
+.modal {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+
+    width: 320px;
+
+    text-align: center;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.modalBtn {
+    margin-top: 15px;
+    padding: 8px 12px;
+
+    background-color: #e74c3c;
+    color: white;
+
+    border: none;
+    border-radius: 6px;
+
+    cursor: pointer;
+}
+
+.modalBtn:hover {
+    background-color: #c0392b;
+}
+
+
+/*Formularios*/
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 20px;
+    font-family: Arial;
+    background-color: #f4f6f8;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.form {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #eaeaea;
+    max-width: 600px;
+    margin: 0 auto 15px auto;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.input {
+    width: 100%;
+    max-width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.input:focus {
+    border-color: #3498db;
+}
+
+.button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #27ae60;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 15px;
+}
+
+.menu button {
+    padding: 8px 15px;
+    border: none;
+
+    background: #3498db;
+    color: white;
+
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.menu button:hover {
+    background: #2980b9;
+}
