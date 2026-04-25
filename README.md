@@ -20,7 +20,7 @@ Está preparado para ejecutarse con Docker.
 Antes de ejecutar el proyecto tener instalado:
 
 - Docker
-
+- Haber inicializado el proyecto de Backend previamente
 -------------------------------
 
 # Ejecución con Docker desde la raiz del proyecto 
